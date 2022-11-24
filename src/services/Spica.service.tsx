@@ -1,8 +1,9 @@
 import * as Bucket from "@spica-devkit/bucket";
 
 class TodoService {
-  private API_KEY = "f2bcj17laqlao3a";
-  public BUCKET_ID = "637c8e59ea080c002bb41c8b";
+  //ADD YOUR API_KEY AND BUCKET_ID HERE
+  private API_KEY = "<YOUR_API_KEY>";
+  public BUCKET_ID = "<YOUR_BUCKET_ID>";
 
   constructor() {
     Bucket.initialize({
