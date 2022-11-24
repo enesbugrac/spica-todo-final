@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import InputTodo from "./components/InputTodo";
 import TodoList from "./components/ItemList";
 import styles from "./App.module.css";
-import * as Bucket from "@spica-devkit/bucket";
 // import {
 //   bucketInitialize,
 //   BUCKET_ID,
@@ -14,7 +13,7 @@ import * as Bucket from "@spica-devkit/bucket";
 //   getAll,
 // } from "./service/Spica.service";
 import SearchTodo from "./components/SearchTodo";
-import TodoService from "./service/Spica.service";
+import TodoService from "./services/Spica.service";
 
 export interface TodoItemInterface {
   title: string;
