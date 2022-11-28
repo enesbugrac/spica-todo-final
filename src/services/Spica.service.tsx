@@ -7,7 +7,7 @@ class TodoService {
 
   constructor() {
     Bucket.initialize({
-      publicUrl: "https://master.spicaengine.com/api",
+      publicUrl: "<YOUR_API_URL>",
       apikey: this.API_KEY,
     });
   }
